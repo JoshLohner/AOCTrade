@@ -1,0 +1,62 @@
+projectAOCTrade/
+├── public/
+│   ├── index.html
+│   └── favicon.ico
+├── src/
+│   ├── assets/
+│   │   └── images/
+│   ├── components/
+│   │   ├── AccountCreation.js
+│   │   ├── FilterByServer.js
+│   │   ├── CreateListing.js
+│   │   ├── RespondToListing.js
+│   │   ├── Messaging.js
+│   │   └── common/
+│   │       ├── Header.js
+│   │       ├── Footer.js
+│   │       └── Navbar.js
+│   ├── pages/
+│   │   ├── Home.js
+│   │   ├── Login.js
+│   │   ├── Register.js
+│   │   ├── Listings.js
+│   │   └── Profile.js
+│   ├── services/
+│   │   ├── authService.js
+│   │   ├── listingService.js
+│   │   └── messagingService.js
+│   ├── App.js
+│   ├── index.js
+│   └── styles/
+│       ├── main.css
+│       └── components/
+│           ├── AccountCreation.css
+│           ├── FilterByServer.css
+│           ├── CreateListing.css
+│           ├── RespondToListing.css
+│           ├── Messaging.css
+│           └── common/
+│               ├── Header.css
+│               ├── Footer.css
+│               └── Navbar.css
+├── .env
+├── package.json
+├── README.md
+└── server/
+    ├── controllers/
+    │   ├── authController.js
+    │   ├── listingController.js
+    │   └── messagingController.js
+    ├── models/
+    │   ├── User.js
+    │   ├── Listing.js
+    │   └── Message.js
+    ├── routes/
+    │   ├── authRoutes.js
+    │   ├── listingRoutes.js
+    │   └── messagingRoutes.js
+    ├── config/
+    │   └── firebaseConfig.js
+    ├── server.js
+    └── middleware/
+        └── authMiddleware.js
